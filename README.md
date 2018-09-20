@@ -7,17 +7,21 @@ This repository include a implementation of GAN-based single image super-resolut
 ## Performance of the method
 The perceptual index is calculated by two no-reference quality measurements, [Ma](https://arxiv.org/abs/1612.05890) and [NIQE](https://doi.org/10.1109/LSP.2012.2227726). Lower score means better perceptual quality. The detail of this index is explained in the [PIRM Challenge](https://www.pirm2018.org/PIRM-SR.html).
 
-**Performance comparison**
-(please check the details in [our paper](https://arxiv.org/abs/1809.04783))
-
-![Performance comparison](https://github.com/manricheon/eusr-pcl-tf/blob/master/figures/performance_table_bsd.png)
-
 **Final ranking of our method (Yonsei-MCML)** in PRIM Challenge on Perceptual SR
 (please check the details in [PIRM website](https://www.pirm2018.org/PIRM-SR.html))
 
 ![Final ranking](https://github.com/manricheon/eusr-pcl-tf/blob/master/figures/ranking_table_pirm.PNG)
 
+**Performance comparison**
+(Note that this performance comparison is performed for the paper. please check the details in [our paper](https://arxiv.org/abs/1809.04783))
+
+![Performance comparison](https://github.com/manricheon/eusr-pcl-tf/blob/master/figures/performance_table_bsd.png)
+
 ## Usage of testing code
+
+Please cite following papers when you use the code, pre-trained models, or results:
+- M. Cheon, J.-H. Kim, J.-H. Choi, J.-S. Lee: Generative adversarial network-based image super-resolution using perceptual content losses. arXiv:1809.04783 (2018) (To appear in ECCV 2018 workshop)
+- J.-H. Kim, J.-S. Lee: Deep residual network with enhanced upscaling module for super-resolution. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pp. 913-921 (2018)
 
 
 
