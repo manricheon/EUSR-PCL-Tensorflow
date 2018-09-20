@@ -2,7 +2,7 @@
 GAN-based image super-resolution using perceptual content losses (tensorflow implementation)
 
 ## Introduction
-This repository include a implementation of GAN-based single image super-resolution using perceptual content losses (PCL), which considers both distortion- and perception-based quality of super-resolved images. In the PIRM Challenge on Perceptual Super Resolution at ECCV 2018, we won the 2nd place for Region 1. (Our team, [Yonsei-MCML](http://mcml.yonsei.ac.kr/), also won the 2nd place for Region 2 based on [4PP-EUSR model](https://github.com/idearibosome/tf-perceptual-eusr) by @dearibosome.)
+This repository include a implementation of GAN-based single image super-resolution using perceptual content losses (PCL), which considers both distortion- and perception-based quality of super-resolved images. In the PIRM Challenge on Perceptual Super Resolution at ECCV 2018, Our team ([Yonsei-MCML](http://mcml.yonsei.ac.kr/)) won the 2nd place for Region 1. (Our team also won the 2nd place for Region 2 based on [4PP-EUSR model](https://github.com/idearibosome/tf-perceptual-eusr).)
 
 Please cite following papers when you use the code, pre-trained models, or results:
 - M. Cheon, J.-H. Kim, J.-H. Choi, J.-S. Lee: [Generative adversarial network-based image super-resolution using perceptual content losses](https://arxiv.org/abs/1809.04783). arXiv:1809.04783 (2018) (To appear in ECCV 2018 workshop)
