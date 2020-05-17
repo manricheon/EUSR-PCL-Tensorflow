@@ -8,6 +8,11 @@ Please cite following papers when you use the code, pre-trained models, or resul
 - M. Cheon, J.-H. Kim, J.-H. Choi, J.-S. Lee: [Generative adversarial network-based image super-resolution using perceptual content losses](https://arxiv.org/abs/1809.04783). arXiv:1809.04783 (2018) (To appear in ECCV 2018 workshop)
 - J.-H. Kim, J.-S. Lee: [Deep residual network with enhanced upscaling module for super-resolution](http://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Kim_Deep_Residual_Network_CVPR_2018_paper.html). In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pp. 913-921 (2018) 
 
+
+### Update
+- TF2 code is added for training/testing (20-05-18)
+
+
 ## Performance of the method
 The perceptual index is calculated by two no-reference quality measurements, [Ma](https://arxiv.org/abs/1612.05890) and [NIQE](https://doi.org/10.1109/LSP.2012.2227726). Lower score means better perceptual quality. The detail of this index is explained in the [PIRM Challenge](https://www.pirm2018.org/PIRM-SR.html).
 
@@ -18,15 +23,16 @@ The perceptual index is calculated by two no-reference quality measurements, [Ma
 
 
 ## Usage of testing code
-The instructions for the usage of testing code is below. Generating super-resolved images from the pre-trained models can be done by `<test/test.py>`. Now, we only support x4 super-resolution for the challenge.
+The instructions for the usage of testing code is below. Generating super-resolved images from the pre-trained models can be done by `<src/test/test.py>`. Now, we only support x4 super-resolution for the challenge.
 
-1. Download and copy the trained model available in Downloads section to the `<test/>` folder.
-2. Place the low-resolution images (PNG files) to the `<test/LR/>` folder.
-3. Run `<python test.py>`
-4. The super-resolved images will be available on the `<test/LR/>` folder.
+1. Download and copy the trained model available in Downloads section to the `<src/test/>` folder.
+2. Place the low-resolution images (PNG files) to the `<src/test/LR/>` folder.
+3. Run `<python src/test.py>`
+4. The super-resolved images will be available on the `<src/test/LR/>` folder.
 
 ## Usage of training code
-The training code will be upaded soon.
+It can be used for training our model, but it is not guaranteed to give same results with our pre-trained model. Please refer to readme.md in <src-tf2> path. 
+
 
 
 ## Downloads
